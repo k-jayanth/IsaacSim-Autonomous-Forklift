@@ -1,0 +1,667 @@
+<sdf version='1.7'>
+  <model name='forklift_b'>
+    <link name='base_link'>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>50</mass>
+        <inertia>
+          <ixx>0.05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.05</iyy>
+          <iyz>0</iyz>
+          <izz>0.05</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_Body_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_RightChainWheel_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_1'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_CenterChain_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_2'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_LeftChainWheel_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_3'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_RightHose_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_4'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_LeftHose_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_5'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_HoseWheel_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_6'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_CenterChainWheel_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_7'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_OperatorCabTopWheels_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_8'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_OperatorCabBotWheels_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_9'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_LiftBotWheels_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_10'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_LiftTopWheels_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_11'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_MastTopWheels_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_12'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_MastBottomWheels_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_13'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_CenterHydralicLift_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_14'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_HydraulicSystem_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_15'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_LeftChain_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_16'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_RightChain_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_17'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_Body_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_18'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_BodyDecal_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='base_link_visual_19'>
+        <pose>0.511519 0.000454 -0.007946 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_BodyGlass_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='back_left_roller' type='revolute'>
+      <pose relative_to='base_link'>-0.71753 0.499 0.078295 0 0 -1.5708</pose>
+      <parent>base_link</parent>
+      <child>roller_back_left</child>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='roller_back_left'>
+      <pose relative_to='back_left_roller'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.5</mass>
+        <inertia>
+          <ixx>0.05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.05</iyy>
+          <iyz>0</iyz>
+          <izz>0.05</izz>
+        </inertia>
+      </inertial>
+      <collision name='roller_back_left_collision'>
+        <pose>0 -0 0 0 1.5708 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.08</length>
+            <radius>0.08</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='roller_back_left_visual'>
+        <pose>-0.499451 1.22905 -0.086241 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_LeadWheelsBackLeft_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='roller_back_left_visual_1'>
+        <pose>0 -0 0 0 1.5708 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.08</length>
+            <radius>0.08</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='back_right_roller' type='revolute'>
+      <pose relative_to='base_link'>-0.71753 -0.49363 0.078295 0 0 -1.5708</pose>
+      <parent>base_link</parent>
+      <child>roller_back_right</child>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='roller_back_right'>
+      <pose relative_to='back_right_roller'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.5</mass>
+        <inertia>
+          <ixx>0.05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.05</iyy>
+          <iyz>0</iyz>
+          <izz>0.05</izz>
+        </inertia>
+      </inertial>
+      <collision name='roller_back_right_collision'>
+        <pose>-0 -0 0 0 1.5708 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.08</length>
+            <radius>0.08</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='roller_back_right_visual'>
+        <pose>0.493174 1.22905 -0.086241 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_LeadWheelsBackRight_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='roller_back_right_visual_1'>
+        <pose>-0 -0 0 0 1.5708 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.08</length>
+            <radius>0.08</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='back_wheel_joints_back_wheel_swivel' type='revolute'>
+      <pose relative_to='base_link'>0.57754 0.07873 0.335755 0 0 -1.5708</pose>
+      <parent>base_link</parent>
+      <child>forklift_b_back_wheel_swivel</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.0472</lower>
+          <upper>1.0472</upper>
+          <effort>123</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>0.1</damping>
+          <friction>0.05</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='forklift_b_back_wheel_swivel'>
+      <pose relative_to='back_wheel_joints_back_wheel_swivel'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.5</mass>
+        <inertia>
+          <ixx>0.05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.05</iyy>
+          <iyz>0</iyz>
+          <izz>0.05</izz>
+        </inertia>
+      </inertial>
+      <collision name='forklift_b_back_wheel_swivel_collision'>
+        <pose>0.078274 -0.066022 -0.361688 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_BackWheelbase_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='forklift_b_back_wheel_swivel_visual'>
+        <pose>0.078274 -0.066022 -0.361688 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_BackWheelbase_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='back_wheel_drive' type='revolute'>
+      <pose relative_to='forklift_b_back_wheel_swivel'>0.07109 0.002381 -0.197719 0 -0 0</pose>
+      <parent>forklift_b_back_wheel_swivel</parent>
+      <child>back_wheel</child>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='back_wheel'>
+      <pose relative_to='back_wheel_drive'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.5</mass>
+        <inertia>
+          <ixx>0.05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.05</iyy>
+          <iyz>0</iyz>
+          <izz>0.05</izz>
+        </inertia>
+      </inertial>
+      <collision name='back_wheel_collision'>
+        <pose>0.015 -1e-06 0 0 -0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.16</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <visual name='back_wheel_visual'>
+        <pose>-0.00809 -0.068405 -0.163969 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_BackWheel_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='back_wheel_visual_1'>
+        <pose>0.015 -1e-06 0 0 -0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.16</radius>
+          </sphere>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='front_left_roller' type='revolute'>
+      <pose relative_to='base_link'>-0.91012 0.499 0.078294 0 0 -1.5708</pose>
+      <parent>base_link</parent>
+      <child>roller_front_left</child>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='roller_front_left'>
+      <pose relative_to='front_left_roller'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.5</mass>
+        <inertia>
+          <ixx>0.05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.05</iyy>
+          <iyz>0</iyz>
+          <izz>0.05</izz>
+        </inertia>
+      </inertial>
+      <collision name='roller_front_left_collision'>
+        <pose>0 0 0 0 1.5708 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.08</length>
+            <radius>0.08</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='roller_front_left_visual'>
+        <pose>-0.499451 1.42163 -0.086241 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_LeadWheelsFrontLeft_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='roller_front_left_visual_1'>
+        <pose>0 0 0 0 1.5708 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.08</length>
+            <radius>0.08</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='front_right_roller' type='revolute'>
+      <pose relative_to='base_link'>-0.91012 -0.49363 0.078295 0 0 -1.5708</pose>
+      <parent>base_link</parent>
+      <child>roller_front_right</child>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='roller_front_right'>
+      <pose relative_to='front_right_roller'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.5</mass>
+        <inertia>
+          <ixx>0.05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.05</iyy>
+          <iyz>0</iyz>
+          <izz>0.05</izz>
+        </inertia>
+      </inertial>
+      <collision name='roller_front_right_collision'>
+        <pose>-0 0 0 0 1.5708 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.08</length>
+            <radius>0.08</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='roller_front_right_visual'>
+        <pose>0.493174 1.42163 -0.086241 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_LeadWheelsFrontRight_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='roller_front_right_visual_1'>
+        <pose>-0 0 0 0 1.5708 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.08</length>
+            <radius>0.08</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='lift_joint' type='prismatic'>
+      <pose relative_to='base_link'>0 0 0 0 0 -1.5708</pose>
+      <parent>base_link</parent>
+      <child>lift</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.15</lower>
+          <upper>2</upper>
+          <effort>123</effort>
+          <velocity>1</velocity>
+        </limit>
+        <dynamics>
+          <damping>0.05</damping>
+          <friction>0.02</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='lift'>
+      <pose relative_to='lift_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 -0 0</pose>
+        <mass>0.5</mass>
+        <inertia>
+          <ixx>0.05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.05</iyy>
+          <iyz>0</iyz>
+          <izz>0.05</izz>
+        </inertia>
+      </inertial>
+      <collision name='lift_collision'>
+        <pose>-0.000454 0.511519 -0.007946 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_OperatorCab_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='lift_visual'>
+        <pose>-0.000454 0.511519 -0.007946 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_Lift_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='lift_visual_1'>
+        <pose>-0.000454 0.511519 -0.007946 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_OperatorCabGlass_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='lift_visual_2'>
+        <pose>-0.000454 0.511519 -0.007946 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_OperatorCab_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='lift_visual_3'>
+        <pose>-0.000454 0.511519 -0.007946 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_OperatorCabDecal_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='lift_visual_4'>
+        <pose>-0.000454 0.511519 -0.007946 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>model://forklift_simulator/meshes/SM_Forklift_OperatorCabPedal_B01_01.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+    <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
+        
+      <update_rate>30</update_rate>
+
+      <!-- wheels -->
+      <left_joint>back_wheel_joints_back_wheel_swivel</left_joint>
+      <right_joint>back_wheel_drive</right_joint>
+
+      <!-- kinematics -->
+      <wheel_separation>0.32</wheel_separation>
+      <wheel_diameter>0.18</wheel_diameter>
+
+      <!-- limits -->
+      <max_wheel_torque>5</max_wheel_torque>
+      <max_wheel_acceleration>1.0</max_wheel_acceleration>
+
+      <command_topic>cmd_vel</command_topic>
+
+      <!-- output -->
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>false</publish_wheel_tf>
+
+      <odometry_topic>odom</odometry_topic>
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+    </plugin>
+    
+
+  </model>
+</sdf>
